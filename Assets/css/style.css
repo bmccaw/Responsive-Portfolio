@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: url(../images/skulls.png);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    background: #866F9E;
+    color: #ffffff;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 250px;
+}
+header {
+    background: #ffffff;
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 29px;
+    border-bottom:2px solid #dddddd;
+}
+h2 {
+    color:#866F9E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 3px solid #cccccc;
+    border-top: #ffffff;
+    border-left: #ffffff;
+    border-right: #ffffff;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #ffffff;
+    background:#866F9E;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom:0px;
+    margin-top:140px;
+    padding:10px;
+}
+h3:hover {
+    background: #DFD4EB
+}
+img {
+    clear: both;
+    overflow: auto;
+    float: left;
+    padding:5px 20px 20px 0px;
+}
+a {
+    color:#777777;
+    text-decoration: none;
+    padding: 10px;
+    clear: both;
+    overflow: auto;
+}
+a:hover {
+    color:#cccccc
+}
+#aboutme {
+    border-right: 2px solid #cccccc;
+    margin-left: 350px;
+}
+#contact {
+    border-left: 2px solid #cccccc;
+}
+section {
+    background: #ffffff;
+    color:#777777;
+    width: 960px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border: 2px solid #dddddd;
+    margin: 0px 200px 10px 250px;
+    line-height: 1.5;
+}
+.column {
+    float: left;
+    width: 275px;
+    height:200px;
+    background-size: 275px 200px;
+    border: 20px solid #ffffff;
+}
+.row {
+    content:"";
+    padding:20px;
+    border: 5px solid #ffffff;
+    display:table;
+    clear:both;
+    overflow: auto;
+}
+#row1 {
+    padding-top:0px;
+    margin-top:0px;
+}
+#meat {
+    background-image: url(../images/ribeye2-275-200.jpg);
+}
+#niccage {
+    background-image: url(../images/niccage275x200.jpg);
+}
+form {
+    width: 960px;
+}
+input {
+    width: 960px;
+    height:20px;
+}
+#message {
+    height:300px;
+}
+#submit {
+    width:80px;
+    background:#866F9E;
+    color: #ffffff;
+    border:none;
+    padding:5px;
+    height:30px;
+    outline:none; 
+}
+#submit:hover {
+    background-color: #DFD4EB;
+    cursor: pointer;
+}
+#submit:active {
+    background-color: #866F9E;
+    transform: translateY(2px);
+    outline:none;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex-shrink: 0;
+}
+footer {
+    background: #666666;
+    color:#777777;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 20px 5px 20px;
+    border-top: 5px solid #866F9E;
+}
