@@ -4,8 +4,6 @@ html {
 body {
     background-image: url(../images/skulls.png);
     height: 100%;
-    display: flex;
-    flex-direction: column;
     margin: 0px;
     padding: 0px;
 }
@@ -18,7 +16,6 @@ body {
     margin-top: 0px;
     margin-left: 250px;
     margin-bottom: 20px;
-    display: inline-block;
 }
 .navbar {
     background: #ffffff;
@@ -154,68 +151,152 @@ footer {
 }
 @media (max-width:640px) {
     section {
-        margin-left:0px;
-        width: 640px;
-        margin-right:0px;
+        margin-left:10px;
+        width: 620px;
+        margin-right:10px;
+        margin-top:10px;
     }
     header {
         position:static;
-        width:100%;
+        width:610px;
         float: none;
         text-align:center;
+        display:inline-block;
     }
     .heading {
-        width:640px;
+        width:660px;
         margin:0px;
     }
     .navbar {
-        width:640px;
+        width:680px;
         margin:0px;
+    }
+    #aboutme {
+        margin-left: 20px;
+        position: relative;
+        top:20px;
+    }
+    #portfolio {
+        position: relative;
+        top:20px;
+    }
+    #contact {
+        position: relative;
+        top:20px;
     }
     footer {
         width:640px;
     }
+    form {
+        width: 640px;
+    }
+    input {
+        width: 640px;
+    }
+    textarea {
+        width: 640px;
+    }
 }
-@media (max-width:768px) {
+@media (max-width:768px) and (min-width:641px) {
     section {
-        margin-left:2px;
-        margin-right: 2px;
-        width:764px;
+        margin-left:50px;
+        margin-right: 50px;
+        width:650px;
     }
     header {
         position: static;
-        width:100%;
+        width:768px;
         float: none;
         text-align:center;
     }
     .heading {
-        width: 768px;
+        float:left;
         margin:0px;
+        position:relative;
+        top: 0px;
+        left:20px;
     }
     .navbar {
-        width:100%;
+        width:809px;
         margin:0px;
+        padding:0px;
+        height: 100px;
+    }
+    #aboutme {
+        margin-left:500px;
+        position:relative;
+        bottom:40px;
+    }
+    #portfolio {
+        position:relative;
+        bottom:40px;
+    }
+    #contact {
+        position:relative;
+        bottom:40px;
     }
     footer {
-        width:768;
+        width:768px;
+    }
+    form {
+        width: 650px;
+    }
+    input {
+        width: 650px;
+    }
+    textarea {
+        width: 650px;
     }
 }
-@media (max-width:980px) {
+@media (max-width:980px) and (min-width:769px) {
     section {
-        margin-left:5px;
-        margin-right:5px;
+        margin-left:70px;
+        margin-right:50px;
         display:block;
+        width:680px;
     }
     footer {
         width:980px;
     }
     header {
-        width:100%;
+        width:980px;
         float: none;
         text-align:center;
         position:static;
     }
+    .heading {
+        float:left;
+        margin-left:0px;
+        margin-bottom:0px;
+        position: relative;
+        left: 70px;
+    }
     .navbar {
-        width:100%;
+        width:1025px;
+        padding-bottom:0px;
+        padding-top:0px;
+        height: 100px;
+    }
+    #aboutme {
+        margin-left:700px;
+        position: relative;
+        bottom: 50px;
+    }
+    #portfolio {
+        position: relative;
+        bottom: 50px;
+    }
+    #contact {
+        position: relative;
+        bottom: 50px;
+    }
+    form {
+        width: 680px;
+    }
+    input {
+        width: 680px;
+    }
+    textarea {
+        width: 680px;
     }
 }
