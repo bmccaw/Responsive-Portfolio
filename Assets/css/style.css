@@ -188,13 +188,13 @@ footer {
         width:640px;
     }
     form {
-        width: 640px;
+        width: 620px;
     }
     input {
-        width: 640px;
+        width: 620px;
     }
     textarea {
-        width: 640px;
+        width: 620px;
     }
 }
 @media (max-width:768px) and (min-width:641px) {
